@@ -1,0 +1,127 @@
+scenario,input,output,spearman,p_value
+Baseline (5 Mbps),demand_factor,mean_delay_ms,0.7988435427060301,9.58885894552762e-68
+Baseline (5 Mbps),demand_factor,p99_delay_ms,0.8394528828098089,6.505076957917862e-81
+Baseline (5 Mbps),demand_factor,loss_prob,0.038297758863987376,0.5087342328608792
+Baseline (5 Mbps),mult_Student,mean_delay_ms,0.468230980344226,9.420863328261048e-18
+Baseline (5 Mbps),mult_Student,p99_delay_ms,0.409906332292581,1.3850268450736008e-13
+Baseline (5 Mbps),mult_Student,loss_prob,0.004023600262225135,0.9446711135195035
+Baseline (5 Mbps),mult_Faculty,mean_delay_ms,0.23488794319936887,3.9733031580654515e-05
+Baseline (5 Mbps),mult_Faculty,p99_delay_ms,0.22101223346926074,0.00011343252642501117
+Baseline (5 Mbps),mult_Faculty,loss_prob,0.016028178090867675,0.7821832646333873
+Baseline (5 Mbps),mult_Admin,mean_delay_ms,0.018981988688763204,0.7433391604026756
+Baseline (5 Mbps),mult_Admin,p99_delay_ms,0.01234280380893121,0.8314055350086014
+Baseline (5 Mbps),mult_Admin,loss_prob,0.08771875243058255,0.12954107473545617
+Baseline (5 Mbps),mult_IoT,mean_delay_ms,-0.10878076423071366,0.059854963471076036
+Baseline (5 Mbps),mult_IoT,p99_delay_ms,-0.02252113912376804,0.6976472336380289
+Baseline (5 Mbps),mult_IoT,loss_prob,-0.10515761286236512,0.0689380543216954
+Baseline (5 Mbps),ber,mean_delay_ms,0.023511372348581652,0.685047596861902
+Baseline (5 Mbps),ber,p99_delay_ms,0.028252758363981823,0.6259702493278121
+Baseline (5 Mbps),ber,loss_prob,0.9952226135845953,3.669534694781373e-303
+Constrained (2.8 Mbps),demand_factor,mean_delay_ms,0.84406448960544,1.2216818428316635e-82
+Constrained (2.8 Mbps),demand_factor,p99_delay_ms,0.8367537417082411,6.287577157075001e-80
+Constrained (2.8 Mbps),demand_factor,loss_prob,0.5342148246091624,1.5484691622538274e-23
+Constrained (2.8 Mbps),mult_Student,mean_delay_ms,0.41431393682152023,7.141792454748768e-14
+Constrained (2.8 Mbps),mult_Student,p99_delay_ms,0.4192451027233635,3.364717508214116e-14
+Constrained (2.8 Mbps),mult_Student,loss_prob,0.1782730919232436,0.0019367892635245995
+Constrained (2.8 Mbps),mult_Faculty,mean_delay_ms,0.21058811764575158,0.00023920823615434264
+Constrained (2.8 Mbps),mult_Faculty,p99_delay_ms,0.21452638362648468,0.0001812046117539058
+Constrained (2.8 Mbps),mult_Faculty,loss_prob,0.10700918899098877,0.06416462235148608
+Constrained (2.8 Mbps),mult_Admin,mean_delay_ms,0.012021022455805065,0.8357377006709632
+Constrained (2.8 Mbps),mult_Admin,p99_delay_ms,0.010716563517372414,0.8533492424025207
+Constrained (2.8 Mbps),mult_Admin,loss_prob,0.08675163057367304,0.13383807040089216
+Constrained (2.8 Mbps),mult_IoT,mean_delay_ms,-0.02372026355848398,0.682400639840659
+Constrained (2.8 Mbps),mult_IoT,p99_delay_ms,-0.03128879209768997,0.5893297595560948
+Constrained (2.8 Mbps),mult_IoT,loss_prob,-0.011276125290281002,0.8457851360597575
+Constrained (2.8 Mbps),ber,mean_delay_ms,0.02697318859098434,0.6416997057738862
+Constrained (2.8 Mbps),ber,p99_delay_ms,0.02815453505038945,0.6271718227503338
+Constrained (2.8 Mbps),ber,loss_prob,0.5857482860920676,5.0270545455486926e-29
+Improved A: +bandwidth (4 Mbps),demand_factor,mean_delay_ms,0.826282958699541,2.863068721881227e-76
+Improved A: +bandwidth (4 Mbps),demand_factor,p99_delay_ms,0.8436315959066212,1.783935290287856e-82
+Improved A: +bandwidth (4 Mbps),demand_factor,loss_prob,0.07192791031011454,0.21414927352940227
+Improved A: +bandwidth (4 Mbps),mult_Student,mean_delay_ms,0.43585817620195777,2.4301346149198496e-15
+Improved A: +bandwidth (4 Mbps),mult_Student,p99_delay_ms,0.40732630362559585,2.0318241366885458e-13
+Improved A: +bandwidth (4 Mbps),mult_Student,loss_prob,0.02389670996344404,0.6801678288217314
+Improved A: +bandwidth (4 Mbps),mult_Faculty,mean_delay_ms,0.22264958499538878,0.0001005609162380802
+Improved A: +bandwidth (4 Mbps),mult_Faculty,p99_delay_ms,0.21020233558150647,0.0002457381520324893
+Improved A: +bandwidth (4 Mbps),mult_Faculty,loss_prob,0.01089834331492572,0.8508904525980163
+Improved A: +bandwidth (4 Mbps),mult_Admin,mean_delay_ms,0.014238380426449183,0.8059927469191258
+Improved A: +bandwidth (4 Mbps),mult_Admin,p99_delay_ms,0.014046822742474915,0.8085520752023425
+Improved A: +bandwidth (4 Mbps),mult_Admin,loss_prob,0.07477594195491061,0.19650980028219311
+Improved A: +bandwidth (4 Mbps),mult_IoT,mean_delay_ms,-0.05497349970555228,0.34266552258202176
+Improved A: +bandwidth (4 Mbps),mult_IoT,p99_delay_ms,-0.01672596362181802,0.7729541116864491
+Improved A: +bandwidth (4 Mbps),mult_IoT,loss_prob,-0.10967944088267648,0.057761810374542664
+Improved A: +bandwidth (4 Mbps),ber,mean_delay_ms,0.024098489983222036,0.6776178543179473
+Improved A: +bandwidth (4 Mbps),ber,p99_delay_ms,0.030067889643218253,0.6039460414491721
+Improved A: +bandwidth (4 Mbps),ber,loss_prob,0.9718112423471372,4.710319686434126e-189
+Improved B: compression (2.8 Mbps),demand_factor,mean_delay_ms,0.8372297469971887,4.227124622771478e-80
+Improved B: compression (2.8 Mbps),demand_factor,p99_delay_ms,0.8483845376059733,2.619089930241933e-84
+Improved B: compression (2.8 Mbps),demand_factor,loss_prob,0.09654640607117856,0.09508703822716867
+Improved B: compression (2.8 Mbps),mult_Student,mean_delay_ms,0.42077178635318163,2.658666204189534e-14
+Improved B: compression (2.8 Mbps),mult_Student,p99_delay_ms,0.40156046178290866,4.727934340497075e-13
+Improved B: compression (2.8 Mbps),mult_Student,loss_prob,0.04172446360515117,0.4715339097715618
+Improved B: compression (2.8 Mbps),mult_Faculty,mean_delay_ms,0.21525661396237739,0.00017201441176919828
+Improved B: compression (2.8 Mbps),mult_Faculty,p99_delay_ms,0.20179868665207387,0.00043659570111753845
+Improved B: compression (2.8 Mbps),mult_Faculty,loss_prob,0.026566072956366184,0.646738466020996
+Improved B: compression (2.8 Mbps),mult_Admin,mean_delay_ms,0.014619717996866632,0.8009040180664913
+Improved B: compression (2.8 Mbps),mult_Admin,p99_delay_ms,0.013047256080623118,0.8219393897707714
+Improved B: compression (2.8 Mbps),mult_Admin,loss_prob,0.0698469982999811,0.2277370320999111
+Improved B: compression (2.8 Mbps),mult_IoT,mean_delay_ms,-0.034701718907987865,0.5493579066428195
+Improved B: compression (2.8 Mbps),mult_IoT,p99_delay_ms,-0.006767630751452793,0.9070733909406702
+Improved B: compression (2.8 Mbps),mult_IoT,loss_prob,-0.09216146846076068,0.11115760935934065
+Improved B: compression (2.8 Mbps),ber,mean_delay_ms,0.024219380215335727,0.6760918725772233
+Improved B: compression (2.8 Mbps),ber,p99_delay_ms,0.028871876354181706,0.6184193633875219
+Improved B: compression (2.8 Mbps),ber,loss_prob,0.9497958866209624,2.0193874005905744e-152
+Improved C: compression + 3.2 Mbps,demand_factor,mean_delay_ms,0.8254660607340082,5.393721187126893e-76
+Improved C: compression + 3.2 Mbps,demand_factor,p99_delay_ms,0.8452969477438638,4.131317011330929e-83
+Improved C: compression + 3.2 Mbps,demand_factor,loss_prob,0.052137468194091034,0.36817894800817336
+Improved C: compression + 3.2 Mbps,mult_Student,mean_delay_ms,0.43683863154035046,2.071555933112361e-15
+Improved C: compression + 3.2 Mbps,mult_Student,p99_delay_ms,0.4041564906276736,3.238952919402167e-13
+Improved C: compression + 3.2 Mbps,mult_Student,loss_prob,0.018916654629495884,0.7441917488821082
+Improved C: compression + 3.2 Mbps,mult_Faculty,mean_delay_ms,0.22179357548417206,0.00010710856225806646
+Improved C: compression + 3.2 Mbps,mult_Faculty,p99_delay_ms,0.21092145468282983,0.00023369683881566169
+Improved C: compression + 3.2 Mbps,mult_Faculty,loss_prob,0.019129990333225926,0.7414089457392313
+Improved C: compression + 3.2 Mbps,mult_Admin,mean_delay_ms,0.01590328781430905,0.7838383719973379
+Improved C: compression + 3.2 Mbps,mult_Admin,p99_delay_ms,0.013617929088100977,0.8142897142395938
+Improved C: compression + 3.2 Mbps,mult_Admin,loss_prob,0.07706130068111867,0.18313999161566433
+Improved C: compression + 3.2 Mbps,mult_IoT,mean_delay_ms,-0.057752197246636064,0.31878693119802726
+Improved C: compression + 3.2 Mbps,mult_IoT,p99_delay_ms,-0.011099234435938176,0.8481748370689846
+Improved C: compression + 3.2 Mbps,mult_IoT,loss_prob,-0.10762608473427483,0.06263586684846327
+Improved C: compression + 3.2 Mbps,ber,mean_delay_ms,0.02561006233402593,0.6586339636884925
+Improved C: compression + 3.2 Mbps,ber,p99_delay_ms,0.03022255802842254,0.6020854573126604
+Improved C: compression + 3.2 Mbps,ber,loss_prob,0.9812957921754686,2.735387142965414e-215
+Severe + compression (2.4 Mbps),demand_factor,mean_delay_ms,0.8459885109834553,2.2390554309551124e-83
+Severe + compression (2.4 Mbps),demand_factor,p99_delay_ms,0.8506663407371191,3.277527705165316e-85
+Severe + compression (2.4 Mbps),demand_factor,loss_prob,0.23261680685340946,4.7384970342420935e-05
+Severe + compression (2.4 Mbps),mult_Student,mean_delay_ms,0.40791119901332235,1.863297772567974e-13
+Severe + compression (2.4 Mbps),mult_Student,p99_delay_ms,0.3993111034567051,6.544113172132151e-13
+Severe + compression (2.4 Mbps),mult_Student,loss_prob,0.10159801775575285,0.0789294328127622
+Severe + compression (2.4 Mbps),mult_Faculty,mean_delay_ms,0.21032722585806504,0.00024360621177900283
+Severe + compression (2.4 Mbps),mult_Faculty,p99_delay_ms,0.20644940499338882,0.00031854039826955717
+Severe + compression (2.4 Mbps),mult_Faculty,loss_prob,0.09526372515250167,0.09958369221848712
+Severe + compression (2.4 Mbps),mult_Admin,mean_delay_ms,0.015128612540139332,0.7941262235859534
+Severe + compression (2.4 Mbps),mult_Admin,p99_delay_ms,0.011669462994033267,0.8404764407033269
+Severe + compression (2.4 Mbps),mult_Admin,loss_prob,0.049728996988855426,0.39074512441770354
+Severe + compression (2.4 Mbps),mult_IoT,mean_delay_ms,-0.015099278880876454,0.7945164942038696
+Severe + compression (2.4 Mbps),mult_IoT,p99_delay_ms,-0.00694007711196791,0.9047166150189526
+Severe + compression (2.4 Mbps),mult_IoT,loss_prob,-0.06183935377059744,0.2856830725341205
+Severe + compression (2.4 Mbps),ber,mean_delay_ms,0.023462482916476846,0.6856676548987706
+Severe + compression (2.4 Mbps),ber,p99_delay_ms,0.02819853553928377,0.6266334394349167
+Severe + compression (2.4 Mbps),ber,loss_prob,0.8531081456460626,3.410334742805815e-86
+Severe constraint (2.4 Mbps),demand_factor,mean_delay_ms,0.7741872687474304,3.837899924839324e-61
+Severe constraint (2.4 Mbps),demand_factor,p99_delay_ms,0.672119023544706,8.78637020244313e-41
+Severe constraint (2.4 Mbps),demand_factor,loss_prob,0.7874958610651229,1.347690986443776e-64
+Severe constraint (2.4 Mbps),mult_Student,mean_delay_ms,0.48366804075600833,5.381436282407451e-19
+Severe constraint (2.4 Mbps),mult_Student,p99_delay_ms,0.5332312581250903,1.930572900349291e-23
+Severe constraint (2.4 Mbps),mult_Student,loss_prob,0.3642831587017633,7.604981350591284e-11
+Severe constraint (2.4 Mbps),mult_Faculty,mean_delay_ms,0.23459905110056778,4.063715153754056e-05
+Severe constraint (2.4 Mbps),mult_Faculty,p99_delay_ms,0.26365448504983385,3.6612359882599327e-06
+Severe constraint (2.4 Mbps),mult_Faculty,loss_prob,0.2174930832564806,0.0001465083966746603
+Severe constraint (2.4 Mbps),mult_Admin,mean_delay_ms,0.023503816709074546,0.685143410234344
+Severe constraint (2.4 Mbps),mult_Admin,p99_delay_ms,0.01929799219991333,0.7392198520558837
+Severe constraint (2.4 Mbps),mult_Admin,loss_prob,0.057686418737985974,0.31933935844092876
+Severe constraint (2.4 Mbps),mult_IoT,mean_delay_ms,-0.12426138068200757,0.03142642568887336
+Severe constraint (2.4 Mbps),mult_IoT,p99_delay_ms,-0.23271591906576736,4.702387692131135e-05
+Severe constraint (2.4 Mbps),mult_IoT,loss_prob,-0.02114867942977144,0.7152476616619216
+Severe constraint (2.4 Mbps),ber,mean_delay_ms,0.03568306314514606,0.5381158176380343
+Severe constraint (2.4 Mbps),ber,p99_delay_ms,0.03562839587106523,0.5387390410068421
+Severe constraint (2.4 Mbps),ber,loss_prob,0.2029435882620918,0.0004042535951584546

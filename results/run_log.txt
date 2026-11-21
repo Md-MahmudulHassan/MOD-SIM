@@ -1,0 +1,88 @@
+[01:39:45] validation: M/M/1, M/D/1, M/M/1/K, P-K for the multi-class mix, Little's law
+[01:39:45]    M/M/1 rho=0.3: W sim=11.447 th=11.429 ms
+[01:39:46]    M/M/1 rho=0.5: W sim=15.951 th=16.000 ms
+[01:39:47]    M/M/1 rho=0.7: W sim=26.740 th=26.667 ms
+[01:39:48]    M/M/1 rho=0.85: W sim=54.137 th=53.333 ms
+[01:39:48]    M/D/1 rho=0.3: W sim=9.721 th=9.714 ms
+[01:39:49]    M/D/1 rho=0.5: W sim=12.007 th=12.000 ms
+[01:39:50]    M/D/1 rho=0.7: W sim=17.375 th=17.333 ms
+[01:39:51]    M/D/1 rho=0.85: W sim=30.909 th=30.667 ms
+[01:39:52]    M/M/1/K rho=0.6: Pb sim=0.0025 th=0.0024
+[01:39:53]    M/M/1/K rho=0.8: Pb sim=0.0237 th=0.0235
+[01:39:54]    M/M/1/K rho=1.0: Pb sim=0.0914 th=0.0909
+[01:39:56]    M/M/1/K rho=1.2: Pb sim=0.1927 th=0.1926
+[01:39:58]    M/M/1/K rho=1.5: Pb sim=0.3373 th=0.3372
+[01:40:00]    campus mix R=3.0 Mbps rho=0.828: W sim=8.799 th=8.753
+[01:40:02]    campus mix R=3.5 Mbps rho=0.712: W sim=4.793 th=4.785
+[01:40:04]    campus mix R=4.0 Mbps rho=0.625: W sim=3.373 th=3.369
+[01:40:06]    campus mix R=5.0 Mbps rho=0.504: W sim=2.172 th=2.170
+[01:40:08]    campus mix R=7.0 Mbps rho=0.366: W sim=1.307 th=1.306
+[01:40:08] validation saved (70 rows); max |rel err| = 1.78%
+[01:40:08] baseline: 30 replications x 600 s
+[01:40:19] baseline done
+[01:40:19] bandwidth sweep
+[01:40:19]    R= 2.20 Mbps rho=1.122 W=282.22 ms p99=324.9 Pb=0.1086
+[01:40:20]    R= 2.40 Mbps rho=1.030 W=217.95 ms p99=290.7 Pb=0.0293
+[01:40:20]    R= 2.50 Mbps rho=0.989 W=98.86 ms p99=260.1 Pb=0.0029
+[01:40:21]    R= 2.60 Mbps rho=0.952 W=35.45 ms p99=157.6 Pb=0.0000
+[01:40:22]    R= 2.80 Mbps rho=0.885 W=13.78 ms p99=59.4 Pb=0.0000
+[01:40:22]    R= 3.00 Mbps rho=0.828 W=8.79 ms p99=36.6 Pb=0.0000
+[01:40:23]    R= 3.25 Mbps rho=0.765 W=6.16 ms p99=24.5 Pb=0.0000
+[01:40:23]    R= 3.50 Mbps rho=0.712 W=4.80 ms p99=18.3 Pb=0.0000
+[01:40:24]    R= 4.00 Mbps rho=0.625 W=3.37 ms p99=12.1 Pb=0.0000
+[01:40:25]    R= 5.00 Mbps rho=0.504 W=2.17 ms p99=7.2 Pb=0.0000
+[01:40:25]    R= 6.00 Mbps rho=0.423 W=1.62 ms p99=5.1 Pb=0.0000
+[01:40:26]    R= 8.00 Mbps rho=0.322 W=1.10 ms p99=3.2 Pb=0.0000
+[01:40:26]    R=10.00 Mbps rho=0.262 W=0.84 ms p99=2.3 Pb=0.0000
+[01:40:26] load sweep
+[01:40:33]    R=3.0 Mbps done
+[01:40:39]    R=5.0 Mbps done
+[01:40:45]    R=10.0 Mbps done
+[01:40:49]    max sustainable load at R= 2.8 Mbps: g=0.947 (360 pkt/s)  rho=0.838  binding=mean_delay_ms
+[01:40:54]    max sustainable load at R= 3.0 Mbps: g=1.028 (391 pkt/s)  rho=0.850  binding=mean_delay_ms
+[01:41:01]    max sustainable load at R= 4.0 Mbps: g=1.421 (540 pkt/s)  rho=0.888  binding=mean_delay_ms
+[01:41:08]    max sustainable load at R= 5.0 Mbps: g=1.807 (687 pkt/s)  rho=0.911  binding=mean_delay_ms
+[01:41:19]    max sustainable load at R= 7.0 Mbps: g=2.559 (972 pkt/s)  rho=0.936  binding=mean_delay_ms
+[01:41:34]    max sustainable load at R=10.0 Mbps: g=3.653 (1388 pkt/s)  rho=0.955  binding=mean_delay_ms
+[01:41:34] load sweep done
+[01:41:34] scenario comparison: 30 replications x 600 s
+[01:41:38]    Baseline (5 Mbps)                        rho=0.505 W=2.17 ms p99=7.2 Pb=0.0000 PDR=0.9936
+[01:41:41]    Constrained (2.8 Mbps)                   rho=0.886 W=13.74 ms p99=58.0 Pb=0.0000 PDR=0.9936
+[01:41:44]    Improved A: +bandwidth (4 Mbps)          rho=0.626 W=3.38 ms p99=12.1 Pb=0.0000 PDR=0.9936
+[01:41:47]    Improved B: compression (2.8 Mbps)       rho=0.676 W=4.04 ms p99=14.8 Pb=0.0000 PDR=0.9954
+[01:41:50]    Improved C: compression + 3.2 Mbps       rho=0.597 W=2.99 ms p99=10.4 Pb=0.0000 PDR=0.9954
+[01:41:53]    Severe constraint (2.4 Mbps)             rho=1.031 W=219.53 ms p99=291.4 Pb=0.0298 PDR=0.9639
+[01:41:56]    Severe + compression (2.4 Mbps)          rho=0.780 W=6.52 ms p99=25.7 Pb=0.0000 PDR=0.9954
+[01:42:01] scenario comparison done
+[01:42:01] buffer sensitivity
+[01:42:05]    rho~0.9 (2.8 Mbps) done
+[01:42:10]    rho~1.1 (2.3 Mbps) done
+[01:42:10] capacity planning (bisection on R with common random numbers)
+[01:42:12]    g=0.6: R_req(sim)=1.949 Mbps   R_req(P-K mean only)=1.944   rho=0.758
+[01:42:15]    g=0.8: R_req(sim)=2.444 Mbps   R_req(P-K mean only)=2.432   rho=0.809
+[01:42:18]    g=1.0: R_req(sim)=2.940 Mbps   R_req(P-K mean only)=2.929   rho=0.844
+[01:42:23]    g=1.2: R_req(sim)=3.436 Mbps   R_req(P-K mean only)=3.432   rho=0.870
+[01:42:27]    g=1.5: R_req(sim)=4.200 Mbps   R_req(P-K mean only)=4.197   rho=0.895
+[01:42:34]    g=2.0: R_req(sim)=5.503 Mbps   R_req(P-K mean only)=5.496   rho=0.920
+[01:42:34] Monte Carlo: 300 trials per scenario
+[01:42:48]    Baseline (5 Mbps)                        P(SLA met)=1.000  median mean-delay=2.20 ms  p95=2.99 ms
+[01:43:03]    Constrained (2.8 Mbps)                   P(SLA met)=0.367  median mean-delay=14.71 ms  p95=231.03 ms
+[01:43:17]    Improved A: +bandwidth (4 Mbps)          P(SLA met)=0.980  median mean-delay=3.43 ms  p95=6.58 ms
+[01:43:31]    Improved B: compression (2.8 Mbps)       P(SLA met)=0.933  median mean-delay=4.10 ms  p95=10.72 ms
+[01:43:45]    Improved C: compression + 3.2 Mbps       P(SLA met)=0.987  median mean-delay=3.03 ms  p95=5.15 ms
+[01:43:58]    Severe constraint (2.4 Mbps)             P(SLA met)=0.047  median mean-delay=232.61 ms  p95=276.08 ms
+[01:44:13]    Severe + compression (2.4 Mbps)          P(SLA met)=0.727  median mean-delay=6.66 ms  p95=170.28 ms
+[01:44:13] Monte Carlo done
+[01:44:13] robust capacity: P(SLA met) vs channel capacity
+[01:44:29]    R=2.80 Mbps  P(SLA met)=0.367
+[01:44:43]    R=3.00 Mbps  P(SLA met)=0.547
+[01:44:58]    R=3.25 Mbps  P(SLA met)=0.767
+[01:45:13]    R=3.50 Mbps  P(SLA met)=0.883
+[01:45:29]    R=3.75 Mbps  P(SLA met)=0.950
+[01:45:44]    R=4.00 Mbps  P(SLA met)=0.980
+[01:45:59]    R=4.50 Mbps  P(SLA met)=0.993
+[01:46:13]    R=5.00 Mbps  P(SLA met)=1.000
+[01:46:28]    R=5.50 Mbps  P(SLA met)=1.000
+[01:46:43]    R=6.00 Mbps  P(SLA met)=1.000
+[01:46:58]    R=7.00 Mbps  P(SLA met)=1.000
+[01:46:58] finished in 433 s
